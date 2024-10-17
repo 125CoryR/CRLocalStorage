@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Local Storage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body onload="ReloadSave()">
+<div id = "CButtonDiv">
+<button class = "colorButton" id = "orangeButton"  onclick="Orange()">Orange</button>
+    <button class = "colorButton" id = "greyButton" onclick="Grey()">Grey</button>
+    <button class = "colorButton"  id = "purpleButton" onclick="Purple()">Purple</button>
+</div>
+<div id = "numberSelectorDiv">
+<button id = "minus" onclick="Minus()" >-</button>
+    <p id ="numberDisplay">0</p>
+    <button id = "plus" onclick="Plus()" >+</button>
+</div>
+
+<div id = "saveButtonDiv">
+    <button id = "saveButton" onclick="Save()">Save </button>
+</div>
+
+<div id ="savedNumbersDiv">
+
+
+</div>
+</body>
+
+</html>
